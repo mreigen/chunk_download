@@ -4,6 +4,10 @@ Uses HTTPoison's Async modules to download a file in chunks asynchronously. It a
 # Documentation
 https://hexdocs.pm/chunk_download/api-reference.html
 
+# Hex package
+https://hex.pm/packages/chunk_download
+
+
 # Return values
 Returns: 
 
