@@ -22,7 +22,7 @@ Returns:
 Download.get_file(file_url, %{}, path: temp_path)
 
 # With headers, will use default path to save file
-Download.get_file(file_url, %{}, path: temp_path)
+Download.get_file(file_url, %{"api-key" => "abc"}, path: temp_path)
 
 # With provided path
 Download.get_file(file_url, %{"api-key" => "abc"}, path: my_path)
