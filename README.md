@@ -18,13 +18,13 @@ Returns:
 
 # Examples
 ```elixir
-# Without headers
-Download.get_file(file_url, %{}, path: temp_path)
+# Without headers, no `:path` provided, uses default path to save file
+Download.get_file(file_url)
 
-# With headers, will use default path to save file
-Download.get_file(file_url, %{"api-key" => "abc"}, path: temp_path)
+# With headers, no `:path` provided, uses default path to save file
+Download.get_file(file_url, %{"api-key" => "abc"})
 
-# With provided path
+# With provided path, provided custom `:path`
 Download.get_file(file_url, %{"api-key" => "abc"}, path: my_path)
 
 # With max_file_size provided
