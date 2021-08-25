@@ -30,3 +30,6 @@ Download.get_file(file_url, %{"api-key" => "abc"}, path: my_path)
 # With max_file_size provided
 Download.get_file(file_url, %{"api-key" => "abc"}, path: my_path, max_file_size: 80_000_000)
 ```
+
+# Contributions
+Contributions are welcome! Please send a PR and/or open an issue.
